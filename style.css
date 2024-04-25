@@ -116,6 +116,8 @@ img{
 
 @media (max-width:1399px){
 
+
+
     *{
         margin: 0;
         padding: 0;
@@ -123,15 +125,21 @@ img{
         
     }
 
+
     header{
         display: none;
     }
 
     img{
         margin: 0 auto;
-        width: 320px;
         right: 57px;
         top: 8px;
+        position: static;
+        width: 300px;
+    }
+
+    #container-img{
+        margin: 0 auto;
     }
 
     .filho{
@@ -155,13 +163,17 @@ img{
         height: 50vh;
     }
 
+    h1{
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+    }
+    P{
+        margin: 0 auto;
+        width: auto;
+    }
+
 
     
-
-
-
-
-
-
 
 }
